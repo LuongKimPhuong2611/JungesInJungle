@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6500211290223048700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6500211290223048703}
+  - component: {fileID: 6500211290223048702}
+  m_Layer: 0
+  m_Name: Sand Theme
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &6500211290223048703
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6500211290223048700}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6500211290223048702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6500211290223048700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3485534593c6e894a831bbbdcd5f56e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  block1x5: {fileID: 21300000, guid: a454f3fdbaa754940bc21ad1d2577976, type: 3}
+  block1x9T: {fileID: 21300000, guid: 177b973972a28364d80a9b35bc481c08, type: 3}
+  block1x9: {fileID: 21300000, guid: f4c4282773dce494d9248d8212817d11, type: 3}
+  block1x14: {fileID: 21300000, guid: 7501e548d6184194b895114a7a17f4ce, type: 3}
+  block4x1: {fileID: 21300000, guid: 61dc6ada615f27c48b1c4afd6025ccdd, type: 3}
+  block75x1R: {fileID: 21300000, guid: 6031aa6724a29c74dadf61002ed46f00, type: 3}
+  block75x1: {fileID: 21300000, guid: f89a193c044ffee45acfa364a19f2120, type: 3}
+  block9x1: {fileID: 21300000, guid: a7287f13fae2a44498125625b27bc254, type: 3}
+  block125x1R: {fileID: 21300000, guid: 565baa4a81427e947abce539e1683644, type: 3}
+  block125x1: {fileID: 21300000, guid: caa5224505aed9c4e98b93beb9e6cb04, type: 3}
+  block14x1: {fileID: 21300000, guid: 6a8b4b900cd55894ba68588566f13249, type: 3}
+  block24x1: {fileID: 21300000, guid: 07c997e137b300f4b81f888f6c9b9963, type: 3}
+  groundBig: {fileID: 21300000, guid: f16a85b35133a2a40ba7f1e72928c39e, type: 3}
+  groundSmall: {fileID: 21300000, guid: b9efbc3e43d497b4582bf1b731324024, type: 3}
+  groundBridge: {fileID: 21300000, guid: 82a501e8bb1f0fe4e9e098fd0a61f576, type: 3}
+  groundBridgeLie: {fileID: 21300000, guid: 52b3452854628aa499899e93f17ef2f1, type: 3}
+  groundBridgeBig: {fileID: 21300000, guid: d81c3ff0b0d039649b4b136b1fb26818, type: 3}
